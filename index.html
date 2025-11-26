@@ -421,7 +421,8 @@
         const TOKEN = "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"; 
         const FILE = "Key.json";
         const BRANCH = "main";
-        const API = `https://gitlab.com/api/v4/projects/${encodeURIComponent(PROJECT)}/repository/files/${encodeURIComponent(FILE)}`;
+        const API = `https://github.com/api/v4/projects/${encodeURIComponent(PROJECT)}/repository/files/${encodeURIComponent(FILE)}`;
+        git remote set-url origin https://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@github.com/munir-vip/munirpremiumpanel
 
         let globalData = { keys: {} };
         let editingKey = null;
