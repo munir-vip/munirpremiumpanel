@@ -417,10 +417,14 @@
 
     <script>
         // === UPDATED PROJECT AND TOKEN ===
-        git remote set-url origin https://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@github.com/munir-vip/munirpremiumpanel
+        const PROJECT = "munirahmed/munirpremiumpanel";
+        const TOKEN = "glpat-eB7-3evNUgQLY9yZr0tiM286MQp1OmlpbmZ3Cw.01.121n52238"; 
+        const FILE = "Key.json";
+        const BRANCH = "main";
+        const API = `https://gitlab.com/api/v4/projects/${encodeURIComponent(PROJECT)}/repository/files/${encodeURIComponent(FILE)}`;
 
         let globalData = { keys: {} };
-        let editingKey = null
+        let editingKey = null;
         let keyMode = 'simple';
         let genMode = 'simple';
         let currentSort = 'default';
