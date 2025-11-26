@@ -1,0 +1,77 @@
+{
+  "config": {
+    "country": "India",
+    "backgroundTheme": "stars",
+    "updateAvailable": false,
+    "themeColor": "#8e44ad",
+    "textColor": "#ffffff"
+  },
+  "loginDialog": {
+    "title": "By Munir",
+    "subtitle": "Unlock premium features by entering your access key below. If you don't have a key yet, tap 'Get Key' to contact the admin.",
+    "loginButtonText": "Login",
+    "adminButtonText": "Get Key",
+    "adminUrl": "https://www.instagram.com/munir_ahmed1?igsh=MXEwaXowY2JodWJpdw=="
+  },
+  "updateDialog": {
+    "title": "New Update Available 🚀",
+    "subtitle": "A mandatory update is ready! Please install the latest version to ensure stability and access new features.",
+    "downloadButtonText": "Update Now",
+    "downloadUrl": "https://example.com/app.apk",
+    "showAdminButton": true,
+    "adminButtonText": "Need Help?",
+    "adminUrl": "https://www.instagram.com/munir_ahmed1?igsh=MXEwaXowY2JodWJpdw=="
+  },
+  "keys": {
+    "VIP-USER": {
+      "expiry": "2025-12-31",
+      "interval": "1week",
+      "toast": "Welcome back, VIP Legend! 👑"
+    },
+    "TRIAL-KEY": {
+      "expiry": "1h",
+      "interval": "everytime",
+      "toast": "1-Hour Trial Started ⏳"
+    },
+    "12-HOUR-PASS": {
+      "expiry": "12h",
+      "interval": "1h",
+      "toast": "12-Hour Session Active ⚡"
+    },
+    "3-DAY-KEY": {
+      "expiry": "3d",
+      "interval": "1d",
+      "toast": "3-Day License Verified ✅"
+    },
+    "MONTHLY-SUB": {
+      "expiry": "1m",
+      "interval": "1d",
+      "toast": "Monthly Access Verified ✅"
+    },
+    "LIFETIME-GOD": {
+      "expiry": "lifetime",
+      "interval": "30d",
+      "toast": "Lifetime Access Granted 💎"
+    },
+    "DEVICE-LOCKED": {
+      "expiry": "30d",
+      "interval": "1d",
+      "toast": "Device Authorized 📱",
+      "device_ids": [
+        "YOUR_DEVICE_ID_HERE",
+        "ANOTHER_DEVICE_ID",
+        "dpmods",
+        "lol"
+      ]
+    },
+    "SIMPLE-KEY": "2025-01-01",
+    "munir": {
+      "expiry": "lifetime",
+      "interval": "everytime",
+      "toast": "By Munir",
+      "device_ids": [
+        "13fdd3c98ae0206b"
+      ]
+    }
+  }
+}
